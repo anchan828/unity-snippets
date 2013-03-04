@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>OnSerializeNetworkView</Shortcut>
+      <_Description />
+      <TemplateType>Unknown</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="name">
+        <Default>stream</Default>
+      </Variable>
+      <Variable name="name2">
+        <Default>info</Default>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[void OnSerializeNetworkView( BitStream $name$, NetworkMessageInfo $name2$){}]]></Code>
+  </CodeTemplate>
+</CodeTemplates>
