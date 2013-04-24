@@ -17,7 +17,7 @@
         <Default>pathToBuiltProject</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[	[OnPostprocessBuild]
+    <Code><![CDATA[	[PostProcessBuild]
 	public static void OnPostprocessBuild (BuildTarget $name1$, string $name2$)
 	{
 		$selected$$end$

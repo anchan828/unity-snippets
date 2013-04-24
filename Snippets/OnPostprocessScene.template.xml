@@ -10,7 +10,7 @@
       <TemplateType>Unknown</TemplateType>
     </Header>
     <Variables />
-    <Code><![CDATA[	[OnPostprocessScene]
+    <Code><![CDATA[	[PostProcessScene]
 	public static void OnPostprocessScene ()
 	{
 		$selected$$end$
