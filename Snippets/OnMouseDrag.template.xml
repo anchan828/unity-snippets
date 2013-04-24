@@ -10,6 +10,9 @@
       <TemplateType>Unknown</TemplateType>
     </Header>
     <Variables />
-    <Code><![CDATA[void OnMouseDrag(){}]]></Code>
+    <Code><![CDATA[	void OnMouseDrag ()
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

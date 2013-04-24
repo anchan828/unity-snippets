@@ -10,6 +10,9 @@
       <TemplateType>Unknown</TemplateType>
     </Header>
     <Variables />
-    <Code><![CDATA[void OnServerInitialized(){}]]></Code>
+    <Code><![CDATA[	void OnServerInitialized ()
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

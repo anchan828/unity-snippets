@@ -14,6 +14,9 @@
         <Default>c</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[void OnTriggerExit(Collider $name$){}]]></Code>
+    <Code><![CDATA[	void OnTriggerExit (Collider $name$)
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

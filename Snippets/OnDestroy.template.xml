@@ -10,6 +10,9 @@
       <TemplateType>Unknown</TemplateType>
     </Header>
     <Variables />
-    <Code><![CDATA[void OnDestroy(){}]]></Code>
+    <Code><![CDATA[	void OnDestroy()
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

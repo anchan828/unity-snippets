@@ -17,6 +17,9 @@
         <Default>info</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[void OnSerializeNetworkView( BitStream $name$, NetworkMessageInfo $name2$){}]]></Code>
+    <Code><![CDATA[	void OnSerializeNetworkView (BitStream $name$, NetworkMessageInfo $name2$)
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

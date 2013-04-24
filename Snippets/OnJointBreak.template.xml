@@ -9,11 +9,14 @@
       <_Description />
       <TemplateType>Unknown</TemplateType>
     </Header>
-     <Variables>
+    <Variables>
       <Variable name="name">
         <Default>breakForce</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[void OnJointBreak(float $name$){}]]></Code>
+    <Code><![CDATA[	void OnJointBreak (float $name$)
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

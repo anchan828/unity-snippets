@@ -14,6 +14,9 @@
         <Default>other</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[void OnParticleCollision(GameObject $name$){}]]></Code>
+    <Code><![CDATA[	void OnParticleCollision (GameObject $name$)
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

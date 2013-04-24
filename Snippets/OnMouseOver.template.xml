@@ -10,6 +10,9 @@
       <TemplateType>Unknown</TemplateType>
     </Header>
     <Variables />
-    <Code><![CDATA[void OnMouseOver(){}]]></Code>
+    <Code><![CDATA[	void OnMouseOver ()
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

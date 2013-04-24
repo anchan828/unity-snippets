@@ -14,6 +14,9 @@
         <Default>info</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[void OnNetworkInstantiate(NetworkMessageInfo $name$){}]]></Code>
+    <Code><![CDATA[	void OnNetworkInstantiate (NetworkMessageInfo $name$)
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

@@ -14,6 +14,9 @@
         <Default>focus</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[void OnApplicationFocus(boolean $name$){}]]></Code>
+    <Code><![CDATA[	void OnApplicationFocus (bool $name$)
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

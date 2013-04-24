@@ -9,11 +9,14 @@
       <_Description />
       <TemplateType>Unknown</TemplateType>
     </Header>
-     <Variables>
+    <Variables>
       <Variable name="name">
         <Default>player</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[void OnPlayerConnected(NetworkPlayer $name$){}]]></Code>
+    <Code><![CDATA[	void OnPlayerConnected (NetworkPlayer $name$)
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

@@ -17,6 +17,9 @@
         <Default>destination</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[void OnRenderImage(RenderTexture $name$, RenderTexture $name2$){}]]></Code>
+    <Code><![CDATA[	void OnRenderImage (RenderTexture $name$, RenderTexture $name2$)
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

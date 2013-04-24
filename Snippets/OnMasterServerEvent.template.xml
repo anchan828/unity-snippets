@@ -9,11 +9,14 @@
       <_Description />
       <TemplateType>Unknown</TemplateType>
     </Header>
-     <Variables>
+    <Variables>
       <Variable name="name">
         <Default>msEvent</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[void OnMasterServerEvent(MasterServerEvent $name$){}]]></Code>
+    <Code><![CDATA[	void OnMasterServerEvent (MasterServerEvent $name$)
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

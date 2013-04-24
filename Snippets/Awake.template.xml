@@ -7,9 +7,12 @@
       <MimeType>text/x-csharp</MimeType>
       <Shortcut>Awake</Shortcut>
       <_Description />
-      <TemplateType>SurroundsWith</TemplateType>
+      <TemplateType>Expansion, SurroundsWith</TemplateType>
     </Header>
     <Variables />
-    <Code><![CDATA[void Awake(){}]]></Code>
+    <Code><![CDATA[	void Awake ()
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>

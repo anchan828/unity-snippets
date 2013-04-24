@@ -9,11 +9,14 @@
       <_Description />
       <TemplateType>Unknown</TemplateType>
     </Header>
-     <Variables>
+    <Variables>
       <Variable name="name">
         <Default>error</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[void OnFailedToConnect(NetworkConnectionError $name$){}]]></Code>
+    <Code><![CDATA[	void OnFailedToConnect (NetworkConnectionError $name$)
+	{
+		$selected$$end$
+	}]]></Code>
   </CodeTemplate>
 </CodeTemplates>
