@@ -23,7 +23,7 @@
         <Default>movedFromPath</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[	void OnPostprocessAllAssets (string[] $name1$, string[] $name2$, string[] $name3$, string[] $name4$)
+    <Code><![CDATA[	static void OnPostprocessAllAssets (string[] $name1$, string[] $name2$, string[] $name3$, string[] $name4$)
 	{
 		$selected$$end$
 	}]]></Code>

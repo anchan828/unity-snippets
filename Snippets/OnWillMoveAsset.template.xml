@@ -17,7 +17,7 @@
         <Default>newPath</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[	AssetMoveResult OnWillMoveAsset (string $name1$, string $name2$)
+    <Code><![CDATA[	static AssetMoveResult OnWillMoveAsset (string $name1$, string $name2$)
 	{
 		$selected$$end$
 	}]]></Code>

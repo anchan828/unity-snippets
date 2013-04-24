@@ -17,7 +17,7 @@
         <Default>option</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[	AssetDeleteResult OnWillDeleteAsset (string $name1$, RemoveAssetOptions $name2$)
+    <Code><![CDATA[	static AssetDeleteResult OnWillDeleteAsset (string $name1$, RemoveAssetOptions $name2$)
 	{
 		$selected$$end$
 	}]]></Code>

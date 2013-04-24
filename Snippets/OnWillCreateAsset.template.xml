@@ -10,7 +10,7 @@
       <TemplateType>Unknown</TemplateType>
     </Header>
     <Variables />
-    <Code><![CDATA[	void OnWillCreateAsset (string path)
+    <Code><![CDATA[	static void OnWillCreateAsset (string path)
 	{
 		$selected$$end$
 	}]]></Code>

@@ -14,7 +14,7 @@
         <Default>paths</Default>
       </Variable>
     </Variables>
-    <Code><![CDATA[	void OnWillSaveAssets (string[] $name$)
+    <Code><![CDATA[	static void OnWillSaveAssets (string[] $name$)
 	{
 		$selected$$end$
 	}]]></Code>
