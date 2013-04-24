@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>OnPostprocessAllAssets</Shortcut>
+      <_Description />
+      <TemplateType>Unknown</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="name1">
+        <Default>importedAssets</Default>
+      </Variable>
+      <Variable name="name2">
+        <Default>deletedAssets</Default>
+      </Variable>
+      <Variable name="name3">
+        <Default>movedAssets</Default>
+      </Variable>
+      <Variable name="name4">
+        <Default>movedFromPath</Default>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[	void OnPostprocessAllAssets (string[] $name1$, string[] $name2$, string[] $name3$, string[] $name4$)
+	{
+		$selected$$end$
+	}]]></Code>
+  </CodeTemplate>
+</CodeTemplates>

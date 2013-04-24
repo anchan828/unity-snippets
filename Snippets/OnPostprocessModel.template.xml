@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>OnPostprocessModel</Shortcut>
+      <_Description />
+      <TemplateType>Unknown</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="name">
+        <Default>root</Default>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[void OnPostprocessModel (GameObject $name$)
+{
+	$selected$$end$
+}]]></Code>
+  </CodeTemplate>
+</CodeTemplates>
