@@ -950,8 +950,12 @@ public static void OnPostprocessScene ()
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
     </Header>
-    <Variables/>
-    <Code><![CDATA[void OnPostprocessTexture (Texture2D texture)
+    <Variables>
+      <Variable name="name">
+        <Default>texture</Default>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[void OnPostprocessTexture (Texture2D $name$)
 {
   $selected$$end$
 }]]></Code>
