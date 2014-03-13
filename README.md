@@ -1,4 +1,4 @@
-#monodevelop-code-template-unity-csharp
+#monodevelop-code-template-unity
 
 ##Install
 
