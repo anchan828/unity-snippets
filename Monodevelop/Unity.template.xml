@@ -1981,6 +1981,44 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnRectTransformRemoved</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[function OnRectTransformRemoved (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnRectTransformRemoved</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[void OnRectTransformRemoved (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnRectTransformRemoved</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[def OnRectTransformRemoved () as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
       <Shortcut>OnRenderImage</Shortcut>
     </Header>
     <Variables>
@@ -2671,6 +2709,620 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnBeginDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnBeginDrag ($name0$: PointerEventData){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnBeginDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnBeginDrag (PointerEventData $name0$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnBeginDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnBeginDrag (PointerEventData $name0$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnDeselect</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnDeselect ($name0$: BaseEventData){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnDeselect</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnDeselect (BaseEventData $name0$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnDeselect</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnDeselect (BaseEventData $name0$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnDrag ($name0$: PointerEventData){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnDrag (PointerEventData $name0$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnDrag (PointerEventData $name0$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnDrop</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnDrop ($name0$: PointerEventData){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnDrop</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnDrop (PointerEventData $name0$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnDrop</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnDrop (PointerEventData $name0$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnEndDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnEndDrag ($name0$: PointerEventData){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnEndDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnEndDrag (PointerEventData $name0$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnEndDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnEndDrag (PointerEventData $name0$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnInitializePotentialDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnInitializePotentialDrag ($name0$: PointerEventData){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnInitializePotentialDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnInitializePotentialDrag (PointerEventData $name0$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnInitializePotentialDrag</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnInitializePotentialDrag (PointerEventData $name0$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnMove</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnMove ($name0$: AxisEventData){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnMove</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnMove (AxisEventData $name0$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnMove</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnMove (AxisEventData $name0$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnRebuildRequested</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[function OnRebuildRequested (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnRebuildRequested</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[void OnRebuildRequested (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnRebuildRequested</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[def OnRebuildRequested () as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnScroll</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnScroll ($name0$: PointerEventData){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnScroll</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnScroll (PointerEventData $name0$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnScroll</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnScroll (PointerEventData $name0$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnSelect</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnSelect ($name0$: BaseEventData){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnSelect</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnSelect (BaseEventData $name0$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnSelect</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnSelect (BaseEventData $name0$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnSubmit</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnSubmit ($name0$: BaseEventData){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnSubmit</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnSubmit (BaseEventData $name0$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnSubmit</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>eventData</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnSubmit (BaseEventData $name0$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnTransformChildrenChanged</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[function OnTransformChildrenChanged (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnTransformChildrenChanged</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[void OnTransformChildrenChanged (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnTransformChildrenChanged</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[def OnTransformChildrenChanged () as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnBeforeSerialize</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[function OnBeforeSerialize (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnBeforeSerialize</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[void OnBeforeSerialize (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnBeforeSerialize</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[def OnBeforeSerialize () as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
       <Shortcut>OnBeforeTransformParentChanged</Shortcut>
     </Header>
     <Variables/>
@@ -2785,82 +3437,6 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnRectTransformDimensionsChange</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[function OnRectTransformDimensionsChange (){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityC#</_Group>
-      <MimeType>text/x-csharp</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnRectTransformDimensionsChange</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[void OnRectTransformDimensionsChange (){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityBoo</_Group>
-      <MimeType>text/x-boo</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnRectTransformDimensionsChange</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[def OnRectTransformDimensionsChange () as void:]]></Code>
-</CodeTemplate>
-<CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityJS</_Group>
-      <MimeType>text/x-unityscript</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnTransformParentChanged</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[function OnTransformParentChanged (){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityC#</_Group>
-      <MimeType>text/x-csharp</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnTransformParentChanged</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[void OnTransformParentChanged (){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityBoo</_Group>
-      <MimeType>text/x-boo</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnTransformParentChanged</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[def OnTransformParentChanged () as void:]]></Code>
-</CodeTemplate>
-<CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityJS</_Group>
-      <MimeType>text/x-unityscript</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
       <Shortcut>OnFillVBO</Shortcut>
     </Header>
     <Variables>
@@ -2868,7 +3444,7 @@
             <Default>vbo</Default>
         </Variable>
     </Variables>
-    <Code><![CDATA[function OnFillVBO ($name0$: List<UIVertex>){
+    <Code><![CDATA[function OnFillVBO ($name0$: List&lt;UIVertex&gt;){
     $selected$$end$
 }]]></Code>
 </CodeTemplate><CodeTemplate version="2.0">
@@ -2885,7 +3461,7 @@
             <Default>vbo</Default>
         </Variable>
     </Variables>
-    <Code><![CDATA[void OnFillVBO (List<UIVertex> $name0$){
+    <Code><![CDATA[void OnFillVBO (List&lt;UIVertex&gt; $name0$){
     $selected$$end$
 }]]></Code>
 </CodeTemplate><CodeTemplate version="2.0">
@@ -2902,121 +3478,7 @@
             <Default>vbo</Default>
         </Variable>
     </Variables>
-    <Code><![CDATA[def OnFillVBO (List<UIVertex> $name0$) as void:]]></Code>
-</CodeTemplate>
-<CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityJS</_Group>
-      <MimeType>text/x-unityscript</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnRebuildRequested</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[function OnRebuildRequested (){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityC#</_Group>
-      <MimeType>text/x-csharp</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnRebuildRequested</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[void OnRebuildRequested (){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityBoo</_Group>
-      <MimeType>text/x-boo</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnRebuildRequested</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[def OnRebuildRequested () as void:]]></Code>
-</CodeTemplate>
-<CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityJS</_Group>
-      <MimeType>text/x-unityscript</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>UpdateGeometry</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[function UpdateGeometry (){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityC#</_Group>
-      <MimeType>text/x-csharp</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>UpdateGeometry</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[void UpdateGeometry (){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityBoo</_Group>
-      <MimeType>text/x-boo</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>UpdateGeometry</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[def UpdateGeometry () as void:]]></Code>
-</CodeTemplate>
-<CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityJS</_Group>
-      <MimeType>text/x-unityscript</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>UpdateMaterial</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[function UpdateMaterial (){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityC#</_Group>
-      <MimeType>text/x-csharp</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>UpdateMaterial</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[void UpdateMaterial (){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityBoo</_Group>
-      <MimeType>text/x-boo</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>UpdateMaterial</Shortcut>
-    </Header>
-    <Variables/>
-    <Code><![CDATA[def UpdateMaterial () as void:]]></Code>
+    <Code><![CDATA[def OnFillVBO (List&lt;UIVertex&gt; $name0$) as void:]]></Code>
 </CodeTemplate>
 <CodeTemplate version="2.0">
     <Header>
@@ -3275,14 +3737,10 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnSubmit</Shortcut>
+      <Shortcut>OnRectTransformDimensionsChange</Shortcut>
     </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[function OnSubmit ($name0$: BaseEventData){
+    <Variables/>
+    <Code><![CDATA[function OnRectTransformDimensionsChange (){
     $selected$$end$
 }]]></Code>
 </CodeTemplate><CodeTemplate version="2.0">
@@ -3292,14 +3750,10 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnSubmit</Shortcut>
+      <Shortcut>OnRectTransformDimensionsChange</Shortcut>
     </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[void OnSubmit (BaseEventData $name0$){
+    <Variables/>
+    <Code><![CDATA[void OnRectTransformDimensionsChange (){
     $selected$$end$
 }]]></Code>
 </CodeTemplate><CodeTemplate version="2.0">
@@ -3309,14 +3763,86 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnSubmit</Shortcut>
+      <Shortcut>OnRectTransformDimensionsChange</Shortcut>
     </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[def OnSubmit (BaseEventData $name0$) as void:]]></Code>
+    <Variables/>
+    <Code><![CDATA[def OnRectTransformDimensionsChange () as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnSiblingGraphicEnabledDisabled</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[function OnSiblingGraphicEnabledDisabled (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnSiblingGraphicEnabledDisabled</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[void OnSiblingGraphicEnabledDisabled (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnSiblingGraphicEnabledDisabled</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[def OnSiblingGraphicEnabledDisabled () as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnTransformParentChanged</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[function OnTransformParentChanged (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnTransformParentChanged</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[void OnTransformParentChanged (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnTransformParentChanged</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[def OnTransformParentChanged () as void:]]></Code>
 </CodeTemplate>
 <CodeTemplate version="2.0">
     <Header>
@@ -3375,10 +3901,10 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnBeforeSerialize</Shortcut>
+      <Shortcut>UpdateGeometry</Shortcut>
     </Header>
     <Variables/>
-    <Code><![CDATA[function OnBeforeSerialize (){
+    <Code><![CDATA[function UpdateGeometry (){
     $selected$$end$
 }]]></Code>
 </CodeTemplate><CodeTemplate version="2.0">
@@ -3388,10 +3914,10 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnBeforeSerialize</Shortcut>
+      <Shortcut>UpdateGeometry</Shortcut>
     </Header>
     <Variables/>
-    <Code><![CDATA[void OnBeforeSerialize (){
+    <Code><![CDATA[void UpdateGeometry (){
     $selected$$end$
 }]]></Code>
 </CodeTemplate><CodeTemplate version="2.0">
@@ -3401,10 +3927,10 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnBeforeSerialize</Shortcut>
+      <Shortcut>UpdateGeometry</Shortcut>
     </Header>
     <Variables/>
-    <Code><![CDATA[def OnBeforeSerialize () as void:]]></Code>
+    <Code><![CDATA[def UpdateGeometry () as void:]]></Code>
 </CodeTemplate>
 <CodeTemplate version="2.0">
     <Header>
@@ -3413,110 +3939,10 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnDeselect</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[function OnDeselect ($name0$: BaseEventData){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityC#</_Group>
-      <MimeType>text/x-csharp</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnDeselect</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[void OnDeselect (BaseEventData $name0$){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityBoo</_Group>
-      <MimeType>text/x-boo</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnDeselect</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[def OnDeselect (BaseEventData $name0$) as void:]]></Code>
-</CodeTemplate>
-<CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityJS</_Group>
-      <MimeType>text/x-unityscript</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnDrag</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[function OnDrag ($name0$: PointerEventData){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityC#</_Group>
-      <MimeType>text/x-csharp</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnDrag</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[void OnDrag (PointerEventData $name0$){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityBoo</_Group>
-      <MimeType>text/x-boo</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnDrag</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[def OnDrag (PointerEventData $name0$) as void:]]></Code>
-</CodeTemplate>
-<CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityJS</_Group>
-      <MimeType>text/x-unityscript</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnSiblingGraphicEnabledDisabled</Shortcut>
+      <Shortcut>UpdateMaterial</Shortcut>
     </Header>
     <Variables/>
-    <Code><![CDATA[function OnSiblingGraphicEnabledDisabled (){
+    <Code><![CDATA[function UpdateMaterial (){
     $selected$$end$
 }]]></Code>
 </CodeTemplate><CodeTemplate version="2.0">
@@ -3526,10 +3952,10 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnSiblingGraphicEnabledDisabled</Shortcut>
+      <Shortcut>UpdateMaterial</Shortcut>
     </Header>
     <Variables/>
-    <Code><![CDATA[void OnSiblingGraphicEnabledDisabled (){
+    <Code><![CDATA[void UpdateMaterial (){
     $selected$$end$
 }]]></Code>
 </CodeTemplate><CodeTemplate version="2.0">
@@ -3539,210 +3965,10 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnSiblingGraphicEnabledDisabled</Shortcut>
+      <Shortcut>UpdateMaterial</Shortcut>
     </Header>
     <Variables/>
-    <Code><![CDATA[def OnSiblingGraphicEnabledDisabled () as void:]]></Code>
-</CodeTemplate>
-<CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityJS</_Group>
-      <MimeType>text/x-unityscript</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnBeginDrag</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[function OnBeginDrag ($name0$: PointerEventData){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityC#</_Group>
-      <MimeType>text/x-csharp</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnBeginDrag</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[void OnBeginDrag (PointerEventData $name0$){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityBoo</_Group>
-      <MimeType>text/x-boo</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnBeginDrag</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[def OnBeginDrag (PointerEventData $name0$) as void:]]></Code>
-</CodeTemplate>
-<CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityJS</_Group>
-      <MimeType>text/x-unityscript</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnEndDrag</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[function OnEndDrag ($name0$: PointerEventData){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityC#</_Group>
-      <MimeType>text/x-csharp</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnEndDrag</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[void OnEndDrag (PointerEventData $name0$){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityBoo</_Group>
-      <MimeType>text/x-boo</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnEndDrag</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[def OnEndDrag (PointerEventData $name0$) as void:]]></Code>
-</CodeTemplate>
-<CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityJS</_Group>
-      <MimeType>text/x-unityscript</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnScroll</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[function OnScroll ($name0$: PointerEventData){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityC#</_Group>
-      <MimeType>text/x-csharp</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnScroll</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[void OnScroll (PointerEventData $name0$){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityBoo</_Group>
-      <MimeType>text/x-boo</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnScroll</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[def OnScroll (PointerEventData $name0$) as void:]]></Code>
-</CodeTemplate>
-<CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityJS</_Group>
-      <MimeType>text/x-unityscript</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnMove</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[function OnMove ($name0$: AxisEventData){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityC#</_Group>
-      <MimeType>text/x-csharp</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnMove</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[void OnMove (AxisEventData $name0$){
-    $selected$$end$
-}]]></Code>
-</CodeTemplate><CodeTemplate version="2.0">
-    <Header>
-      <_Group>UnityBoo</_Group>
-      <MimeType>text/x-boo</MimeType>
-      <Version>1.0</Version>
-      <_Description>Message</_Description>
-      <TemplateType>SurroundsWith,Expansion</TemplateType>
-      <Shortcut>OnMove</Shortcut>
-    </Header>
-    <Variables>
-        <Variable name="name0">
-            <Default>eventData</Default>
-        </Variable>
-    </Variables>
-    <Code><![CDATA[def OnMove (AxisEventData $name0$) as void:]]></Code>
+    <Code><![CDATA[def UpdateMaterial () as void:]]></Code>
 </CodeTemplate>
 <CodeTemplate version="2.0">
     <Header>
@@ -4013,6 +4239,80 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPostprocessAssetbundleNameChanged</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>assetPath</Default>
+        </Variable>
+    </Variables><Variables>
+        <Variable name="name1">
+            <Default>prevoiusAssetBundleName</Default>
+        </Variable>
+    </Variables><Variables>
+        <Variable name="name2">
+            <Default>newAssetBundleName</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnPostprocessAssetbundleNameChanged ($name0$: String, $name1$: String, $name2$: String){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPostprocessAssetbundleNameChanged</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>assetPath</Default>
+        </Variable>
+    </Variables><Variables>
+        <Variable name="name1">
+            <Default>prevoiusAssetBundleName</Default>
+        </Variable>
+    </Variables><Variables>
+        <Variable name="name2">
+            <Default>newAssetBundleName</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnPostprocessAssetbundleNameChanged (string $name0$, string $name1$, string $name2$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPostprocessAssetbundleNameChanged</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>assetPath</Default>
+        </Variable>
+    </Variables><Variables>
+        <Variable name="name1">
+            <Default>prevoiusAssetBundleName</Default>
+        </Variable>
+    </Variables><Variables>
+        <Variable name="name2">
+            <Default>newAssetBundleName</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnPostprocessAssetbundleNameChanged (string $name0$, string $name1$, string $name2$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
       <Shortcut>OnPostprocessAudio</Shortcut>
     </Header>
     <Variables>
@@ -4187,6 +4487,118 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPostprocessSpeedTree</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>root</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnPostprocessSpeedTree ($name0$: GameObject){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPostprocessSpeedTree</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>root</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnPostprocessSpeedTree (GameObject $name0$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPostprocessSpeedTree</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>root</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnPostprocessSpeedTree (GameObject $name0$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPostprocessSprites</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>texture</Default>
+        </Variable>
+    </Variables><Variables>
+        <Variable name="name1">
+            <Default>sprites</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[function OnPostprocessSprites ($name0$: Texture2D, $name1$: Sprite[]){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPostprocessSprites</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>texture</Default>
+        </Variable>
+    </Variables><Variables>
+        <Variable name="name1">
+            <Default>sprites</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[void OnPostprocessSprites (Texture2D $name0$, Sprite[] $name1$){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPostprocessSprites</Shortcut>
+    </Header>
+    <Variables>
+        <Variable name="name0">
+            <Default>texture</Default>
+        </Variable>
+    </Variables><Variables>
+        <Variable name="name1">
+            <Default>sprites</Default>
+        </Variable>
+    </Variables>
+    <Code><![CDATA[def OnPostprocessSprites (Texture2D $name0$, Sprite[] $name1$) as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
       <Shortcut>OnPostprocessTexture</Shortcut>
     </Header>
     <Variables>
@@ -4313,10 +4725,48 @@
       <Version>1.0</Version>
       <_Description>Message</_Description>
       <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPreprocessSpeedTree</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[function OnPreprocessSpeedTree (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityC#</_Group>
+      <MimeType>text/x-csharp</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPreprocessSpeedTree</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[void OnPreprocessSpeedTree (){
+    $selected$$end$
+}]]></Code>
+</CodeTemplate><CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityBoo</_Group>
+      <MimeType>text/x-boo</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
+      <Shortcut>OnPreprocessSpeedTree</Shortcut>
+    </Header>
+    <Variables/>
+    <Code><![CDATA[def OnPreprocessSpeedTree () as void:]]></Code>
+</CodeTemplate>
+<CodeTemplate version="2.0">
+    <Header>
+      <_Group>UnityJS</_Group>
+      <MimeType>text/x-unityscript</MimeType>
+      <Version>1.0</Version>
+      <_Description>Message</_Description>
+      <TemplateType>SurroundsWith,Expansion</TemplateType>
       <Shortcut>OnPreprocessTexture</Shortcut>
     </Header>
     <Variables/>
-    <Code><![CDATA[ OnPreprocessTexture (){
+    <Code><![CDATA[function OnPreprocessTexture (){
     $selected$$end$
 }]]></Code>
 </CodeTemplate><CodeTemplate version="2.0">
@@ -4329,7 +4779,7 @@
       <Shortcut>OnPreprocessTexture</Shortcut>
     </Header>
     <Variables/>
-    <Code><![CDATA[ OnPreprocessTexture (){
+    <Code><![CDATA[void OnPreprocessTexture (){
     $selected$$end$
 }]]></Code>
 </CodeTemplate><CodeTemplate version="2.0">
@@ -4342,7 +4792,7 @@
       <Shortcut>OnPreprocessTexture</Shortcut>
     </Header>
     <Variables/>
-    <Code><![CDATA[def OnPreprocessTexture () as :]]></Code>
+    <Code><![CDATA[def OnPreprocessTexture () as void:]]></Code>
 </CodeTemplate>
 <CodeTemplate version="2.0">
     <Header>
