@@ -38,5 +38,5 @@ Mac				~/Library/Application Support/Sublime Text {version}/Packages/User
 ### Visual Studio Code
 
 ```
-Mac Visual Studio Code.app/Contents/Resources/app/plugins/vs.language.csharp.o/features/snippets.js
+Mac				Visual Studio Code.app/Contents/Resources/app/plugins/vs.language.csharp.o/features/snippets.js
 ```
