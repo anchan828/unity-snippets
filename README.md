@@ -33,3 +33,10 @@ Mac				~/Library/Application Support/Sublime Text {version}/Packages/User
 ```
 
 ![](https://dl.dropboxusercontent.com/u/153254465/screenshot2/ss%202014-12-07%2016.00.30.png)
+
+
+### Visual Studio Code
+
+```
+Mac Visual Studio Code.app/Contents/Resources/app/plugins/vs.language.csharp.o/features/snippets.js
+```
