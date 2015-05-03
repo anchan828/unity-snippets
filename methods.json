@@ -1,0 +1,1104 @@
+{
+  "methods": [
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "Awake",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "FixedUpdate",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "LateUpdate",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnAnimatorIK",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "int",
+          "name": "layerIndex"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnAnimatorMove",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnApplicationFocus",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "bool",
+          "name": "focusStatus"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnApplicationPause",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "bool",
+          "name": "pauseStatus"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnApplicationQuit",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnAudioFilterRead",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "float[]",
+          "name": "data"
+        },
+        {
+          "type": "int",
+          "name": "channels"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnBecameInvisible",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnBecameVisible",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnCollisionEnter",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collision",
+          "name": "collision"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnCollisionEnter2D",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collision2D",
+          "name": "collision2D"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnCollisionExit",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collision",
+          "name": "collision"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnCollisionExit2D",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collision2D",
+          "name": "collision2D"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnCollisionStay",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collision",
+          "name": "collision"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnCollisionStay2D",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collision2D",
+          "name": "collision2D"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnConnectedToServer",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnControllerColliderHit",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "ControllerColliderHit",
+          "name": "hit"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnDestroy",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnDisable",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnDisconnectedFromServer",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "NetworkDisconnection",
+          "name": "info"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnDrawGizmos",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnDrawGizmosSelected",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnEnable",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnFailedToConnect",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "NetworkConnectionError",
+          "name": "error"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnFailedToConnectToMasterServer",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "NetworkConnectionError",
+          "name": "info"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnGUI",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnJointBreak",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "float",
+          "name": "breakForce"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnLevelWasLoaded",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "int",
+          "name": "level"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnMasterServerEvent",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "MasterServerEvent",
+          "name": "msEvent"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnMouseDown",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnMouseDrag",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnMouseEnter",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnMouseExit",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnMouseOver",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnMouseUp",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnMouseUpAsButton",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnNetworkInstantiate",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "NetworkMessageInfo",
+          "name": "info"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnParticleCollision",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "GameObject",
+          "name": "other"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnPlayerConnected",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "NetworkPlayer",
+          "name": "player"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnPlayerDisconnected",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "NetworkPlayer",
+          "name": "player"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnPostRender",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnPreCull",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnPreRender",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnRectTransformRemoved",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnRenderImage",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "RenderTexture",
+          "name": "src"
+        },
+        {
+          "type": "RenderTexture",
+          "name": "dest"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnRenderObject",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnSerializeNetworkView",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "BitStream",
+          "name": "stream"
+        },
+        {
+          "type": "NetworkMessageInfo",
+          "name": "info"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnServerInitialized",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnTriggerEnter",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collider",
+          "name": "other"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnTriggerEnter2D",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collider2D",
+          "name": "other"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnTriggerExit",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collider",
+          "name": "other"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnTriggerExit2D",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collider2D",
+          "name": "other"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnTriggerStay",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collider",
+          "name": "other"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnTriggerStay2D",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Collider2D",
+          "name": "other"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnValidate",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "OnWillRenderObject",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "Reset",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "Start",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine",
+      "name": "Update",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnBeginDrag",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "PointerEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnDeselect",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "BaseEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnDrag",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "PointerEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnDrop",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "PointerEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnEndDrag",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "PointerEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnInitializePotentialDrag",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "PointerEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnMove",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "AxisEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnRebuildRequested",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnScroll",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "PointerEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnSelect",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "BaseEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnSubmit",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "BaseEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.EventSystems",
+      "name": "OnTransformChildrenChanged",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnBeforeSerialize",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnBeforeTransformParentChanged",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnCanvasGroupChanged",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnDidApplyAnimationProperties",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnFillVBO",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "List&lt;UIVertex&gt;",
+          "name": "vbo"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnPointerClick",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "PointerEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnPointerDown",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "PointerEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnPointerEnter",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "PointerEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnPointerExit",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "PointerEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnPointerUp",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "PointerEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnRectTransformDimensionsChange",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnSiblingGraphicEnabledDisabled",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnTransformParentChanged",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "OnUpdateSelected",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "BaseEventData",
+          "name": "eventData"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "UpdateGeometry",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEngine.UI",
+      "name": "UpdateMaterial",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnAssignMaterialModel",
+      "returnType": "Material",
+      "args": [
+        {
+          "type": "Material",
+          "name": "material"
+        },
+        {
+          "type": "Renderer",
+          "name": "renderer"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnHierarchyChange",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnInspectorUpdate",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnLostFocus",
+      "returnType": "void"
+    },
+    {
+      "isStatic": true,
+      "namespace": "UnityEditor",
+      "name": "OnPostprocessAllAssets",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "string[]",
+          "name": "importedAssets"
+        },
+        {
+          "type": "string[]",
+          "name": "deletedAssets"
+        },
+        {
+          "type": "string[]",
+          "name": "movedAssets"
+        },
+        {
+          "type": "string[]",
+          "name": "movedFromPath"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnPostprocessAssetbundleNameChanged",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "string",
+          "name": "assetPath"
+        },
+        {
+          "type": "string",
+          "name": "prevoiusAssetBundleName"
+        },
+        {
+          "type": "string",
+          "name": "newAssetBundleName"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnPostprocessAudio",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "AudioClip",
+          "name": "clip"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnPostprocessGameObjectWithUserProperties",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "GameObject",
+          "name": "root"
+        },
+        {
+          "type": "string[]",
+          "name": "propNames"
+        },
+        {
+          "type": "object[]",
+          "name": "values"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnPostprocessModel",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "GameObject",
+          "name": "root"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnPostprocessSpeedTree",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "GameObject",
+          "name": "root"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnPostprocessSprites",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Texture2D",
+          "name": "texture"
+        },
+        {
+          "type": "Sprite[]",
+          "name": "sprites"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnPostprocessTexture",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "Texture2D",
+          "name": "texture"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnPreprocessAudio",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnPreprocessModel",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnPreprocessSpeedTree",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnPreprocessTexture",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnProjectChange",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnSceneGUI",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnSelectionChange",
+      "returnType": "void"
+    },
+    {
+      "isStatic": true,
+      "namespace": "UnityEditor",
+      "name": "OnWillCreateAsset",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "string",
+          "name": "path"
+        }
+      ]
+    },
+    {
+      "isStatic": true,
+      "namespace": "UnityEditor",
+      "name": "OnWillDeleteAsset",
+      "returnType": "AssetDeleteResult",
+      "args": [
+        {
+          "type": "string",
+          "name": "assetPath"
+        },
+        {
+          "type": "RemoveAssetOptions",
+          "name": "option"
+        }
+      ]
+    },
+    {
+      "isStatic": true,
+      "namespace": "UnityEditor",
+      "name": "OnWillMoveAsset",
+      "returnType": "AssetMoveResult",
+      "args": [
+        {
+          "type": "string",
+          "name": "oldPath"
+        },
+        {
+          "type": "string",
+          "name": "newPath"
+        }
+      ]
+    },
+    {
+      "isStatic": true,
+      "namespace": "UnityEditor",
+      "name": "OnWillSaveAssets",
+      "returnType": "void",
+      "args": [
+        {
+          "type": "string[]",
+          "name": "paths"
+        }
+      ]
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnWizardCreate",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnWizardOtherButton",
+      "returnType": "void"
+    },
+    {
+      "isStatic": false,
+      "namespace": "UnityEditor",
+      "name": "OnWizardUpdate",
+      "returnType": "void"
+    }
+  ]
+}
