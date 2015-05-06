@@ -1,4 +1,4 @@
-#monodevelop-code-template-unity
+#munity-snippets
 
 ##Install
 
