@@ -1,4 +1,4 @@
-#munity-snippets
+#unity-snippets
 
 ##Install
 
