@@ -101,7 +101,7 @@ class ReSharper extends Snippet {
         let text = []
         let guid = uuid.v4().replace(/-/g, "").toUpperCase()
         text.push(`<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=${guid}/@KeyIndexDefined">True</s:Boolean>`)
-        text.push(`<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=${guid}/Shortcut/@EntryValue">OnTriggerStay</s:String>`)
+        text.push(`<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=${guid}/Shortcut/@EntryValue">${this.name}</s:String>`)
         text.push(`<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=${guid}/Description/@EntryValue">Message</s:String>`)
         text.push(`<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=${guid}/Reformat/@EntryValue">True</s:Boolean>`)
         text.push(`<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=${guid}/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>`)
